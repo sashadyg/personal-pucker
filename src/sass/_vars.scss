@@ -1,5 +1,11 @@
 :root {
     --white-color: #ffffff;
+    --bg-footer: #0B265A;
+    --text-color: #192252;
+    --main-text-color: #848FAC;
+    --bg-button-color: #0E1734;
+    --secondary-text-color: #424F7B;
+    --text-color-footer: #D9DBDE;
   }
   
   body {
@@ -12,7 +18,7 @@
   h4,
   h5,
   h6 {
-  
+    color: var(--text-color);
     margin: 0;
   }
   
@@ -40,6 +46,7 @@
   
   button {
     border: none;
+    background-color: var(--bg-button-color);
   }
   
   p {
@@ -49,9 +56,10 @@
     letter-spacing: 0.03em;
   
     margin: 0;
+    color: var(--main-text-color);
   }
   
   .container {
-    width: 100%;
+    width: 1440px;
     margin: 0 auto;
 }
